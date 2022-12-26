@@ -1,0 +1,93 @@
+.logo {
+  margin-left: 110px;
+  margin-top: 53px;
+}
+
+.nav {
+  margin-top: 70px;
+}
+
+a {
+  margin-left: 30px;
+}
+
+nav {
+  
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.img2 {
+  position: absolute;
+  margin-top: 141px;
+  margin-left: 250px;
+
+}
+
+.main_image {
+  
+  align-items: flex-start;
+  justify-content: space-around;
+  display: flex;
+  width: 720px;
+  height: 696px;
+  background: url(./images/index-background-desktop.png);
+  float: right;
+}
+
+.left_container {
+  margin-left: 190px;
+}
+
+.left1 {
+  width: 414px;
+  height: 120px;
+
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  color: #000000;
+  margin-top: 223px;
+}
+
+.left2 {
+  width: 283px;
+
+  margin-top: 383;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 244px;
+  height: 54px;
+  background-color: #68b738;
+  border: 0px;
+  
+  margin-top: 30px;
+}
+
+.button_text {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 0px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 13px;
+}

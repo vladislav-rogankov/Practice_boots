@@ -1,0 +1,108 @@
+body {
+  width: 1440px;
+}
+
+.main_container {
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+.container_1 {
+  min-width: 570px;
+  height: 330px;
+  background-color: gainsboro;
+  margin-top: 200px;
+  margin-left: 110px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container_2 {
+  min-width: 570px;
+  height: 330px;
+  background-color: gainsboro;
+  margin-top: 200px;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.image_1 {
+  width: 100px;
+  height: 100px;
+  background: url(/images/cat_back.png);
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.image_2 {
+  width: 134px;
+  height: 100px;
+  background: url(/images/cat_back2.png);
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.h {
+  padding-top: 77px;
+  width: 207px;
+  height: 36px;
+  margin-left: 60px;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height, or 100% */
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.text_1 {
+  width: 467px;
+  height: 72px;
+  margin-left: 50px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #000000;
+}
+
+.text_2 {
+  margin-left: 50px;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.arrow {
+  width: 32px;
+  height: 12px;
+  
+  
+}
+
+.carousel{
+  width: 690px;
+  margin-left: 400px;
+  margin-top: 70px;
+
+}
+
+.next{
+  color: #000000;
+}
