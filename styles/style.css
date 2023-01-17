@@ -1,24 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Oswald:wght@700&family=Roboto+Condensed&display=swap");
-
 body {
   min-width: 768px;
-  
 }
 .main_container {
   display: flex;
   flex-direction: row;
-  margin-top: 100px;
+  margin-top: 150px;
   flex-wrap: wrap;
   margin-left: 50px;
   justify-content: space-between;
-  
 }
 .container_1 {
   width: 570px;
   height: 374px;
   background-color: gainsboro;
   margin-top: 50px;
-  
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -29,18 +25,16 @@ body {
   height: 374px;
   background-color: gainsboro;
   margin-top: 50px;
-  
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  
-  
 }
 
 .image_1 {
   width: 100px;
   height: 100px;
-  background: url(/images/cat_back.png);
+  background: url(./images/cat_back.png);
   margin-top: 50px;
   margin-left: 50px;
 }
@@ -48,7 +42,7 @@ body {
 .image_2 {
   width: 134px;
   height: 100px;
-  background: url(/images/cat_back2.png);
+  background: url(./images/cat_back2.png);
   margin-top: 50px;
   margin-left: 50px;
 }
@@ -99,5 +93,13 @@ body {
   width: 32px;
   height: 12px;
   margin-top: 25px;
-  
+}
+
+.carousel {
+  width: 690px;
+  margin-left: 400px;
+}
+
+.next {
+  color: #000000;
 }
